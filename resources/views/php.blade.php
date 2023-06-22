@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Laravel - Primi Passi</title>
+	<title>Document</title>
 
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;500&display=swap');
@@ -19,7 +19,7 @@
 
 		:root {
 			font-family: 'Mitr', sans-serif;
-			background-color: #2b2040;
+			background-color: #7d9478;
 		}
 
 		nav {
@@ -75,7 +75,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			align-items: center;
-			color: #cccccc;
+			color: #222222;
 		}
 
 		main h1 {
@@ -86,6 +86,11 @@
 		main h4 {
 			margin-top: 2rem;
 			font-weight: 300;
+		}
+
+		main span {
+			font-weight: 500;
+			text-decoration: underline;
 		}
 	</style>
 </head>
@@ -112,10 +117,10 @@
 	</nav>
 
 	<main>
-		<h1>HELLO WORLD!</h1>
-		<h2>and welcome to</h2>
-		<h2>the great, great, great world of Laravel!</h2>
-		<h4>(even if it's for PHP...)</h4>
+		<h1>CSS</h1>
+		<h2>now with Flexbox and Grid</h2>
+		<h2>you can do whatever the hell you want!</h2>
+		<h4>(except when <span>they</span> do whatever the hell they want...)</h4>
 	</main>
 </body>
 

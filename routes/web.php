@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get("css", function () {
     return view("css");
 });
+
+Route::get("javascript", function () {
+    return view("javascript");
+});
+
+Route::get("php", function () {
+    return view("php");
+});
