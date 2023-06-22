@@ -19,7 +19,7 @@
 
 		:root {
 			font-family: 'Mitr', sans-serif;
-			background-color: #7d9478;
+			background-color: #222222;
 		}
 
 		nav {
@@ -29,7 +29,7 @@
 			left: 0;
 			width: 100%;
 			height: 15vh;
-			box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.85);
+			box-shadow: 0 0 4px 2px rgba(150, 150, 150, 0.85);
 			color: #333333;
 			padding: 1rem 5rem;
 			display: flex;
@@ -75,7 +75,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			align-items: center;
-			color: #222222;
+			color: #dddddd;
 		}
 
 		main h1 {
@@ -117,10 +117,11 @@
 	</nav>
 
 	<main>
-		<h1>CSS</h1>
-		<h2>now with Flexbox and Grid</h2>
-		<h2>you can do whatever the hell you want!</h2>
-		<h4>(except when <span>they</span> do whatever the hell they want...)</h4>
+		<h1>PHP</h1>
+		<h2>It's like a contemporary abstract exhibit,</h2>
+		<h2>an incomprehensible mess that only makes sense to the "artists".</h2>
+		<h4>(You don't know what you're doing... baby, it must be art!)</h4>
+		<h4><span>U2,</span> "Hold me, thrill me, kiss me, kill me"</h4>
 	</main>
 </body>
 

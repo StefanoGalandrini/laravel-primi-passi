@@ -19,7 +19,7 @@
 
 	:root {
 		font-family: 'Mitr', sans-serif;
-		background-color: #7d9478;
+		background-color: #6789b0;
 	}
 
 	nav {
@@ -117,10 +117,10 @@
 	</nav>
 
 	<main>
-		<h1>CSS</h1>
-		<h2>now with Flexbox and Grid</h2>
-		<h2>you can do whatever the hell you want!</h2>
-		<h4>(except when <span>they</span> do whatever the hell they want...)</h4>
+		<h1>JAVASCRIPT</h1>
+		<h2>just like English, an universal language</h2>
+		<h2>that everybody speaks!</h2>
+		<h4>(and no one understands...)</h4>
 	</main>
 </body>
 
