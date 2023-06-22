@@ -27,33 +27,65 @@
 			background-color: #dddddd;
 			top: 0;
 			left: 0;
-			width: 15vw;
-			height: 100vh;
+			width: 100%;
+			height: 15vh;
 			box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.85);
 			color: #333333;
-			padding: 1rem;
+			padding: 1rem 5rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 		}
 
 		nav h2 {
-			text-align: center;
+			width: max-content;
 			font-weight: bold;
-			margin-bottom: 5rem;
+		}
+
+		nav .menu {
+			width: 50%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 		}
 
 		nav ul {
 			list-style-type: none;
 			font-weight: 300;
-			margin-left: 1rem;
-		}
-
-		nav li {
-			height: 5rem;
 		}
 
 		nav a {
+			display: flex;
+			align-items: center;
 			text-decoration: none;
 			font-size: 1.3rem;
 			color: #333333;
+			border-bottom: 3px solid transparent;
+		}
+
+		nav a:hover {
+			border-bottom: 3px solid #333333;
+		}
+
+		main {
+			padding-top: 15vh;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			color: #cccccc;
+		}
+
+		main h1 {
+			display: block;
+			margin-bottom: 2rem;
+		}
+
+		main h4 {
+			margin-top: 2rem;
+			font-weight: 300;
 		}
 	</style>
 </head>
@@ -63,7 +95,6 @@
 		<h2>
 			LARAVEL MENU
 		</h2>
-
 		<ul class="menu">
 			<li>
 				<a href="/">Home</a>
@@ -79,6 +110,13 @@
 			</li>
 		</ul>
 	</nav>
+
+	<main>
+		<h1>HELLO WORLD!</h1>
+		<h2>and welcome to</h2>
+		<h2>the great, great, great world of Laravel!</h2>
+		<h4>(even if it's for PHP...)</h4>
+	</main>
 </body>
 
 </html>
